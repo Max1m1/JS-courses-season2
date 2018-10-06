@@ -3,17 +3,17 @@
 let firstArray = [1, 3, 6, 8, 4];
 let secondArray = [7, 9, 8, 1, 3];
 
-function dataSelection(data1, data2) {
+function difference(arg1, arg2) {
     let resArray = [];
     let indexArray = null;
 
     for (indexArray in firstArray) {
-        if (data2.indexOf(data1[indexArray]) === -1) {
-            resArray.push(data1[indexArray]);
+        if (arg2.indexOf(arg1[indexArray]) === -1) {
+            resArray.push(arg1[indexArray]);
         }
     }
 
     console.log(resArray);
 }
 
-dataSelection(firstArray, secondArray);
+difference(firstArray, secondArray);
