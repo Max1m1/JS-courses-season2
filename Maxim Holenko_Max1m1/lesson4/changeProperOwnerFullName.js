@@ -5,7 +5,7 @@ function Car(brand, fuelTank, ownerFullName) {
     this.fuelTank = fuelTank;
     this.ownerFullName = ownerFullName;
 
-    let countWords = this.ownerFullName.split(" ").length;
+    const countWords = this.ownerFullName.split(" ").length;
 
     if (countWords !== 2) {
         this.ownerFullName = "John Doe";
