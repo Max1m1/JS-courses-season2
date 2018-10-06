@@ -1,4 +1,4 @@
-// Завдання № 3
+// Task № 3
 
 let firstArray = [1, 3, 6, 8, 4];
 let secondArray = [7, 9, 8, 1, 3];
