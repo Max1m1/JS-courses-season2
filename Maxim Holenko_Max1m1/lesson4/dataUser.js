@@ -7,26 +7,22 @@ let User = {
 }
 
 Object.defineProperties(User, {
-    businessCardInfo: {
-        get: function() {
+    userPresent: {
+        get: function additСardProperties() {
             return new businessCard;
         }
     },
 
     userData: {
-        get : function () {
+        get : function userInformation() {
             return ("Object data: \n Name: " + this.name + '\n Age: ' + this.age + '\n Profession: ' + this.profession);
         }
     }
 });
 
-businessCard = function () {
-    let businessCard = {
-        name : User.name,
-        profession : User.profession,
-    }
-
-    return businessCard;
+function businessCard(name, profession) {
+    this.name = User.profession;
+    this.profession = User.profession;
 }
 
 User.addDataUser = function () {
@@ -36,6 +32,6 @@ User.addDataUser = function () {
 }
 
 console.log(User.userData);
-console.log(User.businessCardInfo);
+console.log(User.userPresent);
 console.log(User.addDataUser());
 console.log(User);
