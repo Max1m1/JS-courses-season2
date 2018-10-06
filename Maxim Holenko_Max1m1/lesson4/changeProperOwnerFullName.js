@@ -1,4 +1,4 @@
-//Завдання № 2
+//Task № 2
 
 function Car(brand, fuelTank, ownerFullName) {
     this.brand = brand;
@@ -12,11 +12,11 @@ function Car(brand, fuelTank, ownerFullName) {
     }
 
     this.getFirstNamePart = function () {
-        console.log("Ім'я: " + this.ownerFullName.split(" ")[0]);
+        console.log("First name: " + this.ownerFullName.split(" ")[0]);
     }
 
     this.getSecondNamePart = function () {
-        console.log("Прізвище: " + this.ownerFullName.split(" ")[1]);
+        console.log("Second name: " + this.ownerFullName.split(" ")[1]);
     }
 }
 
