@@ -1,4 +1,4 @@
-//Завдання № 4
+//Task № 4
 
 let User = {
     name : 'Maxim',
@@ -15,7 +15,7 @@ Object.defineProperties(User, {
 
     userData: {
         get : function () {
-            return ("Дані об'єкта: \n Ім'я: " + this.name + '\n Вік: ' + this.age + '\n Вид діяльності: ' + this.profession);
+            return ("Object data: \n Name: " + this.name + '\n Age: ' + this.age + '\n Profession: ' + this.profession);
         }
     }
 });
