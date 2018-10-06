@@ -1,4 +1,4 @@
-//Завдання № 1
+//Task № 1
 
 function Car(brand, fuelTank, ownerFullName) {
     this.brand = brand;
@@ -6,15 +6,15 @@ function Car(brand, fuelTank, ownerFullName) {
     this.ownerFullName = ownerFullName;
 
     this.carBrand = function () {
-        console.log("Модель машини: " + this.brand);
+        console.log("Сar model: " + this.brand);
     }
 
     this.carfuelTank = function () {
-        console.log("Об'єм паливного баку: " + this.fuelTank);
+        console.log("Volume of fuel tank: " + this.fuelTank);
     }
 
     this.carownerFullName = function () {
-        console.log("Власник машини: " + this.ownerFullName);
+        console.log("Owner of cars: " + this.ownerFullName);
     }
 }
 
