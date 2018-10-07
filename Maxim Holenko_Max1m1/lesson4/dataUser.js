@@ -9,7 +9,7 @@ let User = {
 Object.defineProperties(User, {
     userPresent: {
         get: function () {
-            return new BusinessCard;
+            return new BusinessCard(User.name, User.profession);
         }
     },
 
@@ -20,9 +20,9 @@ Object.defineProperties(User, {
     }
 });
 
-function BusinessCard(name, profession) {
-    this.name = User.profession;
-    this.profession = User.profession;
+function BusinessCard(arg1, arg2) {
+    this.name = arg1;
+    this.profession = arg2;
 }
 
 User.addDataUser = function () {
